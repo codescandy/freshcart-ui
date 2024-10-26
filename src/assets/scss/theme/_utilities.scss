@@ -1,0 +1,180 @@
+@import "../../../../node_modules/bootstrap/scss/functions";
+@import "../../../../node_modules/bootstrap/scss/variables";
+@import "../../../../node_modules/bootstrap/scss/variables-dark";
+@import "../../../../node_modules/bootstrap/scss/maps";
+@import "../../../../node_modules/bootstrap/scss/mixins";
+@import "../../../../node_modules/bootstrap/scss/utilities";
+
+$utilities: (
+  "background-color": (
+    property: background-color,
+    class: bg,
+    local-vars: (
+      "bg-opacity": 1
+    ),
+    values:
+      map-merge(
+        $utilities-bg-colors,
+        (
+          "transparent": transparent,
+          "body-secondary": rgba(var(--#{$prefix}secondary-bg-rgb), var(--#{$prefix}bg-opacity)),
+          "body-tertiary": rgba(var(--#{$prefix}tertiary-bg-rgb), var(--#{$prefix}bg-opacity)),
+          "gray-100": $gray-100,
+          "gray-200": $gray-200,
+          "gray-300": $gray-300,
+          "gray-400": $gray-400,
+          "gray-500": $gray-500,
+          "gray-600": $gray-600,
+          "gray-700": $gray-700,
+          "gray-800": $gray-800,
+          "gray-900": $gray-900
+        )
+      )
+  ),
+  "bg-opacity": (
+    css-var: true,
+    class: bg-opacity,
+    values: (
+      10: 0.1,
+      25: 0.25,
+      50: 0.5,
+      75: 0.75,
+      100: 1
+    )
+  ),
+  "subtle-background-color": (
+    property: background-color,
+    class: bg,
+    values: $utilities-bg-subtle
+  ),
+  "color": (
+    property: color,
+    class: text,
+    local-vars: (
+      "text-opacity": 1
+    ),
+    values:
+      map-merge(
+        $utilities-text-colors,
+        (
+          "muted": var(--#{$prefix}secondary-color),
+          // deprecated
+          "black-50": rgba($black, 0.5),
+          // deprecated
+          "white-50": rgba($white, 0.5),
+          // deprecated
+          "body-secondary": var(--#{$prefix}secondary-color),
+          "body-tertiary": var(--#{$prefix}tertiary-color),
+          "body-emphasis": var(--#{$prefix}emphasis-color),
+          "reset": inherit
+        )
+      )
+  ),
+  "text-opacity": (
+    css-var: true,
+    class: text-opacity,
+    values: (
+      25: 0.25,
+      50: 0.5,
+      75: 0.75,
+      100: 1
+    )
+  ),
+  "text-color": (
+    property: color,
+    class: text,
+    values: $utilities-text-emphasis-colors
+  ),
+  "flex": (
+    responsive: true,
+    property: flex,
+    values: (
+      fill: 1 1 auto,
+      auto: 0 0 auto
+    )
+  ),
+
+  "width": (
+    property: width,
+    responsive: true,
+    class: w,
+    values: (
+      0: 0%,
+      5: 5%,
+      10: 10%,
+      15: 15%,
+      20: 20%,
+      25: 25%,
+      30: 30%,
+      40: 40%,
+      45: 45%,
+      50: 50%,
+      60: 60%,
+      65: 65%,
+      75: 75%,
+      100: 100%,
+      auto: auto
+    )
+  ),
+  "viewport-height": (
+    property: height,
+    class: vh,
+    values: (
+      100: 100vh,
+      90: 90vh
+    )
+  ),
+  "position": (
+    property: position,
+    responsive: true,
+    values: static relative absolute fixed sticky
+  ),
+  "top": (
+    property: top,
+    responsive: true,
+    values: $position-values
+  ),
+  "bottom": (
+    property: bottom,
+    responsive: true,
+    values: $position-values
+  ),
+  "start": (
+    property: left,
+    responsive: true,
+    class: start,
+    values: $position-values
+  ),
+  "end": (
+    property: right,
+    responsive: true,
+    class: end,
+    values: $position-values
+  ),
+  "translate-middle": (
+    property: transform,
+    class: translate-middle,
+    responsive: true,
+    values: (
+      null: translate(-50%, -50%),
+      x: translateX(-50%),
+      y: translateY(-50%)
+    )
+  ),
+  "line-height": (
+    property: line-height,
+    class: lh,
+    values: (
+      1: 1,
+      xs: $line-height-xs,
+      sm: $line-height-sm,
+      base: $line-height-base,
+      lg: $line-height-lg
+    )
+  )
+);
+
+@import "../../../../node_modules/bootstrap/scss/utilities/api";
+// @import '../theme/utilities/icon-shape';
+// @import '../theme/utilities/collapse';
+// @import './utilities/border';

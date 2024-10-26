@@ -1,0 +1,62 @@
+// Avatar
+
+.avatar {
+  position: relative;
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+}
+
+// Avatar Size
+
+.avatar-xs {
+  width: $avatar-size-xs;
+  height: $avatar-size-xs;
+}
+.avatar-sm {
+  width: $avatar-size-sm;
+  height: $avatar-size-sm;
+}
+.avatar-md {
+  width: $avatar-size-md;
+  height: $avatar-size-md;
+}
+
+.avatar-lg {
+  width: $avatar-size-lg;
+  height: $avatar-size-lg;
+}
+.avatar-xl {
+  width: $avatar-size-xl;
+  height: $avatar-size-xl;
+}
+
+.avatar-xxl {
+  width: $avatar-size-xxl;
+  height: $avatar-size-xxl;
+}
+
+// Avatar img
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+// Avatar Group
+
+.avatar-group .avatar + .avatar {
+  margin-left: -1.2rem;
+}
+.avatar-group .avatar:hover {
+  z-index: 2;
+}
+
+// Avatar border
+
+.avatar-group img,
+.avatar-group .avatar .avatar-initials {
+  border: 3px solid var(--#{$prefix}white);
+}
