@@ -9,10 +9,13 @@ Your one-stop shop for fresh produce, organic goods, dairy, baked items, and eve
 
 [Demo](https://freshcart.codescandy.com/index.html)
 
+
 ![Freshcart Grocery E-commerce HTML Template](src/assets/images/grocery-store.png)
 
 ## Furniture Store
 
 Minimalist furniture store design, perfect for your online furniture shop.
+
+[Demo](https://freshcart-furniture.codescandy.com/)
 
 ![Freshcart Furniture E-commerce HTML Template](src/assets/images/furniture-store.png)
