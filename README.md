@@ -5,7 +5,9 @@ e-commerce business.
 
 ## Grocery Store
 
-Your one-stop shop for fresh produce, organic goods, dairy, baked items, and everyday essentials. [Demo](https://freshcart.codescandy.com/index.html)
+Your one-stop shop for fresh produce, organic goods, dairy, baked items, and everyday essentials.
+
+[Demo](https://freshcart.codescandy.com/index.html)
 
 <img src="src/assets/images/grocery-store.png">
 
