@@ -6,7 +6,17 @@
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
-	"keywords": [],
+	"keywords": [
+		"E-commerce",
+		"bootstrap-5",
+		"frontend",
+		"html",
+		"freshcart",
+		"online store",
+		"scss",
+		"codescandy",
+		"responsive"
+	],
 	"author": "",
 	"license": "ISC",
 	"devDependencies": {
