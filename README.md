@@ -3,5 +3,10 @@
 Build your online store with a premium Multi-Purpose E-commerce HTML template. Offering a sleek design, customizable features, and responsive layouts, this front-end template is perfect for any
 e-commerce business.
 
-<h2>Grocery Store</h2>
-<img src="src/assets/images/grocery-store.png">
+## Grocery Store
+
+Your one-stop shop for fresh produce, organic goods, dairy, baked items, and everyday essentials. [Demo](https://freshcart.codescandy.com/index.html) <img src="src/assets/images/grocery-store.png">
+
+## Furniture Store
+
+Minimalist furniture store design, perfect for your online furniture shop. ![Furniture](src/assets/images/furniture-store.png)
