@@ -9,7 +9,7 @@ Your one-stop shop for fresh produce, organic goods, dairy, baked items, and eve
 
 [Demo](https://freshcart.codescandy.com/index.html)
 
-<img src="src/assets/images/grocery-store.png">
+![Freshcart Grocery E-commerce HTML Template](src/assets/images/grocery-store.png)
 
 ## Furniture Store
 
